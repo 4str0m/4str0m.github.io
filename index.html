@@ -28,11 +28,10 @@
 				<section id="intro" class="wrapper style1">
 					<div class="title">A little bit about me.</div>
 					<div class="container">
-						<p class="style1">In case you don't know who I am.</p>
 						<p class="style2">
 							CS student at EPFL, I'm pationate about computer graphics and low-level programing.
 						</p>
-						<p class="style3">I'm proficient in <strong>C</strong>, <strong>C++</strong> and <strong>Java</strong>, but also in more modern languages like <strong>Python</strong>. My interest are mostly CG, and compiler implementation, but I also have some skills in web and app developpement.</p>
+						<p class="style3">I'm proficient in <strong>C</strong>, <strong>C++</strong> and <strong>Java</strong> but also in more modern languages like <strong>Python</strong>, or more specific languages like <strong>CUDA</strong>. My interests are mostly CG, and compiler implementation, but I also have some skills in web and app developpement.</p>
 					</div>
 				</section>
 
@@ -41,64 +40,49 @@
 					<div class="title">Projects</div>
 					<div class="container">
 						<div class="row aln-center">
-							<div class="col-4 col-12-medium">
+							<div class="col-8 col-12-medium">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/tekari_screen.png" alt="" /></a>
+									<h3>Nori</h3>
+									<a class="image featured"><img src="images/nori.png" alt="" /></a>
+									<p>A path tracer implemented during the EPFL <a href="https://rgl.epfl.ch/courses/ACG20">CS-440</a> course. I won the final rendering competition with this image. The current renderer features things such as various texture types, a curve primitive (for hair rendering), image based lighting, bump mapping, a few simple materials and Optix 7 support.</p>
+									<p>(since the course is taught every year, I unfortunately can't show the code here)</p>
+								</section>
+							</div>
+							<div class="col-8 col-12-medium">
+								<section class="highlight">
 									<h3>Tekari</h3>
-									<p>A BSDF-data visualization and editing tool.</p>
+									<a class="image featured"><img src="images/tekari_screen.png" alt="" /></a>
+									<p>A BSDF-data visualization and editing tool. It was mostly build to visualize materials captured and stored using the technique described in <a href="http://rgl.epfl.ch/publications/Dupuy2018Adaptive">this paper</a>. An web version of the viewer, along with many materials can be seen <a href="http://rgl.epfl.ch/materials">here</a></p>
 									<ul class="actions">
 										<li><a href="https://github.com/rgl-epfl/tekari" class="button style1">See code</a></li>
 									</ul>
 								</section>
 							</div>
-							<div class="col-4 col-12-medium">
+							<div class="col-8 col-12-medium">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/julia.png" alt="" /></a>
+									<h3>Mitsuba 2</h3>
+									<a class="image featured"><img src="images/mitsuba-logo-white-bg.png" alt="" /></a>
+									<p>I worked on Mitsuba 2, a retargetable forward and inverse renderer, for about a year, implementing various things such as Optix 7 support (for GPU rendering), or a particle tracer, for efficient caustics rendering.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/mitsuba-renderer/mitsuba2" class="button style1">See Code</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-8 col-12-medium">
+								<section class="highlight">
+									<a class="image featured"><img src="images/julia.png" alt="" /></a>
 									<h3>Julia</h3>
-									<p>An easy to use and fast fractal editor that runs on the gpu.</p>
+									<p>An easy to use and fast fractal editor that runs on the gpu. It allows the user to navigate through the julia set, zoom to a part that looks interesting, modify the color gradient used to render the fractal, and capture a screenshot for later use.</p>
 									<ul class="actions">
 										<li><a href="https://github.com/4str0m/Julia" class="button style1">See Code</a></li>
 									</ul>
 								</section>
 							</div>
-							<div class="col-4 col-12-medium">
+							<div class="col-8 col-12-medium">
 								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/planet_editor.png" alt="" /></a>
-									<h3><a href="#">Tiny World</a></h3>
-									<p>A fun and intuitive planet editor.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">See Code</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Project</a></h3>
-									<p>Description.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">See Code</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Project</a></h3>
-									<p>Description.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">See Code</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Project</a></h3>
-									<p>Description.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">See Code</a></li>
-									</ul>
+									<h3>Tiny World</h3>
+									<a class="image featured"><img src="images/planet_editor.png" alt="" /></a>
+									<p>A fun and intuitive planet editor. This is just a toy project, and still a work in progress.</p>
 								</section>
 							</div>
 						</div>
@@ -110,7 +94,7 @@
 					<div class="title">Want to see more?</div>
 					<div class="container">
 						<header class="style1">
-							<h2>Check out my github page!</h2>
+							<h2>Check out my <a href="https://github.com/4str0m">GitHub</a><br /> page!</h2>
 							<p>
 								If you want to work with me you can also contact me by email.
 							</p>
@@ -119,15 +103,6 @@
 								<!-- Contact -->
 									<section class="feature-list small">
 										<div class="row">
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-comment">Social</h3>
-													<p>
-														<a href="https://github.com/4str0m">GitHub</a><br />
-														<a href="#">Linkedin</a><br />
-													</p>
-												</section>
-											</div>
 											<div class="col-6 col-12-small">
 												<section>
 													<h3 class="icon solid fa-envelope">Email</h3>
